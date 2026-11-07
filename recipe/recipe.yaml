@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "1.1.2"
+  version: "1.2"
 
 package:
   name: ramp-stream
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/ramp-stream/ramp_stream-${{ version }}.tar.gz
-  sha256: 6b0c7db10913ba0e2c75e5398777849866933c8aea27747f1ae9cf1cc9e543f4
+  sha256: 71d995cacad4fd34960f615d03046b0acd89e5680414979dd164c0be3da4ed54
 
 build:
   number: 0
